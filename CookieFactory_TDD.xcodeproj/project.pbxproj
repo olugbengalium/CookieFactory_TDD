@@ -104,15 +104,12 @@
 		654F460129D42DF600BF5405 /* CookieFactory_TDD */ = {
 			isa = PBXGroup;
 			children = (
-				654F460229D42DF600BF5405 /* AppDelegate.swift */,
-				654F460429D42DF600BF5405 /* SceneDelegate.swift */,
-				654F460629D42DF600BF5405 /* ViewController.swift */,
-				654F460829D42DF600BF5405 /* Main.storyboard */,
+				6561E9F129D4F6C6002E6102 /* Controllers */,
+				6561E9F029D4F68C002E6102 /* View */,
 				654F460B29D42DF800BF5405 /* Assets.xcassets */,
 				654F460D29D42DF800BF5405 /* LaunchScreen.storyboard */,
 				654F461029D42DF800BF5405 /* Info.plist */,
-				654F463229D42E2400BF5405 /* Cookie.swift */,
-				6561E9ED29D4E470002E6102 /* CookieController.swift */,
+				6561E9EF29D4F682002E6102 /* Model */,
 			);
 			path = CookieFactory_TDD;
 			sourceTree = "<group>";
@@ -132,6 +129,33 @@
 				654F462529D42DF800BF5405 /* CookieFactory_TDDUITestsLaunchTests.swift */,
 			);
 			path = CookieFactory_TDDUITests;
+			sourceTree = "<group>";
+		};
+		6561E9EF29D4F682002E6102 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				654F463229D42E2400BF5405 /* Cookie.swift */,
+				6561E9ED29D4E470002E6102 /* CookieController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6561E9F029D4F68C002E6102 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				654F460829D42DF600BF5405 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6561E9F129D4F6C6002E6102 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				654F460229D42DF600BF5405 /* AppDelegate.swift */,
+				654F460429D42DF600BF5405 /* SceneDelegate.swift */,
+				654F460629D42DF600BF5405 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
