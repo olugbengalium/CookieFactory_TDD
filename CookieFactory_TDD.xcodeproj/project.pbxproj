@@ -16,6 +16,9 @@
 		654F461A29D42DF800BF5405 /* CookieFactory_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F461929D42DF800BF5405 /* CookieFactory_TDDTests.swift */; };
 		654F462429D42DF800BF5405 /* CookieFactory_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F462329D42DF800BF5405 /* CookieFactory_TDDUITests.swift */; };
 		654F462629D42DF800BF5405 /* CookieFactory_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F462529D42DF800BF5405 /* CookieFactory_TDDUITestsLaunchTests.swift */; };
+		654F463329D42E2400BF5405 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F463229D42E2400BF5405 /* Cookie.swift */; };
+		654F463429D4312B00BF5405 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654F463229D42E2400BF5405 /* Cookie.swift */; };
+		6561E9EE29D4E470002E6102 /* CookieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561E9ED29D4E470002E6102 /* CookieController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		654F461F29D42DF800BF5405 /* CookieFactory_TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieFactory_TDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		654F462329D42DF800BF5405 /* CookieFactory_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieFactory_TDDUITests.swift; sourceTree = "<group>"; };
 		654F462529D42DF800BF5405 /* CookieFactory_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieFactory_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		654F463229D42E2400BF5405 /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		6561E9ED29D4E470002E6102 /* CookieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,8 @@
 				654F460B29D42DF800BF5405 /* Assets.xcassets */,
 				654F460D29D42DF800BF5405 /* LaunchScreen.storyboard */,
 				654F461029D42DF800BF5405 /* Info.plist */,
+				654F463229D42E2400BF5405 /* Cookie.swift */,
+				6561E9ED29D4E470002E6102 /* CookieController.swift */,
 			);
 			path = CookieFactory_TDD;
 			sourceTree = "<group>";
@@ -259,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				654F460729D42DF600BF5405 /* ViewController.swift in Sources */,
+				654F463329D42E2400BF5405 /* Cookie.swift in Sources */,
 				654F460329D42DF600BF5405 /* AppDelegate.swift in Sources */,
 				654F460529D42DF600BF5405 /* SceneDelegate.swift in Sources */,
+				6561E9EE29D4E470002E6102 /* CookieController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				654F461A29D42DF800BF5405 /* CookieFactory_TDDTests.swift in Sources */,
+				654F463429D4312B00BF5405 /* Cookie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
